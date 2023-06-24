@@ -1,0 +1,50 @@
+.task-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.task-list .buttonSH {
+  align-self: first baseline;
+  width: 70%;
+  color: white;
+  background-color: rgb(86, 157, 232);
+  border: none;
+  margin: 0.5rem;
+  border-radius: 5px;
+}
+
+.task-list .buttonD {
+  align-self: last baseline;
+  width: 70%;
+  color: white;
+  background-color: rgb(217, 83, 66);
+  border: none;
+  margin: 0.5rem;
+  border-radius: 5px;
+}
+
+.task-list .buttonC {
+  width: 70%;
+  color: white;
+  background-color: rgb(43, 37, 36);
+  border: none;
+  margin: 0.5rem;
+  border-radius: 5px;
+}
+
+.task-list .buttonSH:hover {
+  background-color: rgb(36, 130, 231);
+}
+
+.task-list .buttonD:hover {
+  background-color: rgb(211, 45, 23);
+}
+
+.task-list .buttonC:hover {
+  background-color: rgb(14, 11, 11);
+}
+
+.task-list.over {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
